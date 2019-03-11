@@ -1,0 +1,18 @@
+{
+	"name": "Hangouts Volume",
+	"version": "1.0",
+	"description": "Adds a volume slider to hangouts calls",
+	"permissions": ["activeTab"],
+	 "content_scripts": [
+        {
+            "matches": [
+                "*://hangouts.google.com/call*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+	],
+	"manifest_version": 2
+}
