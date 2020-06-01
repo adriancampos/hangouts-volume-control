@@ -4,6 +4,7 @@ newElement.type="range";
 newElement.min="0";
 newElement.max="1";
 newElement.step="0.01";
+newElement.style.setProperty("height","48px");
 
 newElement.value = 1;
 
