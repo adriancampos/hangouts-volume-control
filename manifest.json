@@ -1,6 +1,6 @@
 {
 	"name": "Hangouts Volume",
-	"version": "1.0",
+	"version": "1.0.1",
 	"description": "Adds a volume slider to hangouts calls",
 	"permissions": ["activeTab"],
 	 "content_scripts": [
